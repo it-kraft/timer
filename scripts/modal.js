@@ -15,10 +15,10 @@ export function setupModal() {
 export function toggleTimerState(timerStateEl, isStarted) {
     timerStateEl.classList = [];
     if (isStarted) {
-        timerStateEl.textContent = "[ON]";
+        timerStateEl.textContent = "[Aç]";
         timerStateEl.classList.toggle('timer-on');
     } else {
-        timerStateEl.textContent = "[OFF]";
+        timerStateEl.textContent = "[Kapat]";
         timerStateEl.classList.toggle('timer-off');
     }
 };
